@@ -1,10 +1,12 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import DogImage from './DogIndex';
  
 const Dogs = () => {
 
   return (
     <Container className="App">
+      <DogImage />
       <br />
       <h1 className="App-intro">
         For this challenge, write the logic to accomplish the following:
